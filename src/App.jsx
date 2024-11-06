@@ -33,8 +33,11 @@ useEffect(()=>{
               <img src={product.image} alt={product.title} width={200}/>
               <p className='head'>{product.title}</p>
               <p>{product.category}</p>
-              <p>{product.price}</p>
+              <p>{product.price} ₺</p>
               <p className='description'>{product.description}</p>
+              <div className='button-container'>
+                <button className='Sell'>Sell</button>
+              </div>
               </div>
 
               </div>
